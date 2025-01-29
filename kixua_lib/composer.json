@@ -1,0 +1,14 @@
+{
+    "name": "kixua/payment",
+    "description": "Kixua Payment API Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "KixuaLib\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*"
+    }
+}
